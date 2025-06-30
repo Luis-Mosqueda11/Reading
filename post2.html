@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Post</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="post-detail-container">
+        <div class="post-header">
+            <button class="back-button" onclick="window.location.href='index.html'">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <h2 class="post-username">charles_a_life_saver</h2>
+        </div>
+        
+        <div class="post-image-container">
+            <img src="images/post2.png" alt="Post image" class="post-image">
+        </div>
+        
+        <div class="post-actions">
+            <div class="left-actions">
+                <button class="action-button"><i class="far fa-heart"></i></button>
+                <button class="action-button"><i class="far fa-comment"></i></button>
+                <button class="action-button"><i class="far fa-paper-plane"></i></button>
+            </div>
+            <button class="action-button"><i class="far fa-bookmark"></i></button>
+        </div>
+        
+        <div class="post-likes">
+            <span>1,539 likes</span>
+        </div>
+        
+        <div class="post-caption">
+            <span class="caption-username">charles_a_life_saver</span>
+            <span class="caption-text">“Me: here to enjoy a play.
+                Booth: surprise spinal trauma
+                Lincoln: 💀
+                Me: ‘Sir, I need you to stay conscious... for like 3 more centuries.’”
+                #NotInTheJobDescription #FordFail #PagingDrLeale</span>
+        </div>
+        
+        <div class="post-comments">
+            <div class="comment">
+                <div class="comment-user">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw1XifrebC11JS40EvDxfUGf6DgOqiZoj5fw&s" alt="firstladyofdrama" class="comment-user-pic">
+                </div>
+                <div class="comment-content">
+                    <span class="comment-username">southernactor_vibes:</span>
+                    <span class="comment-text">He needed more drama in his life. You’re welcome.</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="add-comment">
+            <input type="text" placeholder="Add a comment..." class="comment-input">
+            <button class="post-button">Post</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

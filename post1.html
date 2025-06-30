@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Post</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="post-detail-container">
+        <div class="post-header">
+            <button class="back-button" onclick="window.location.href='index.html'">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <h2 class="post-username">charles_a_life_saver</h2>
+        </div>
+        
+        <div class="post-image-container">
+            <img src="images/post1.png" alt="Post image" class="post-image">
+        </div>
+        
+        <div class="post-actions">
+            <div class="left-actions">
+                <button class="action-button"><i class="far fa-heart"></i></button>
+                <button class="action-button"><i class="far fa-comment"></i></button>
+                <button class="action-button"><i class="far fa-paper-plane"></i></button>
+            </div>
+            <button class="action-button"><i class="far fa-bookmark"></i></button>
+        </div>
+        
+        <div class="post-likes">
+            <span>3,533 likes</span>
+        </div>
+        
+        <div class="post-caption">
+            <span class="caption-username">charles_a_life_saver</span>
+            <span class="caption-text">“Me: ‘Let’s move him carefully.’
+                Them: drops him on the curb.
+                Also me: Googles “how to save a President” on a flipbook.”
+                #NoAmbulanceNoProblem #PresidentialCPR #CallMeDocMcStuffins</span>
+        </div>
+        
+        <div class="post-comments">
+            <div class="comment">
+                <div class="comment-user">
+                    <img src="https://th-thumbnailer.cdn-si-edu.com/HHzXnTSOJe2Recgc1Yar9jtZalY=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/1f/a4/1fa4ba10-8e1f-4b58-863c-c9b85a42b09d/marytoddlincoln.jpg" alt="firstladyofdrama" class="comment-user-pic">
+                </div>
+                <div class="comment-content">
+                    <span class="comment-username">firstladyofdrama</span>
+                    <span class="comment-text">I literally can't. This night is ✨cursed✨</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="add-comment">
+            <input type="text" placeholder="Add a comment..." class="comment-input">
+            <button class="post-button">Post</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
